@@ -16,10 +16,11 @@ VirusTotal API Key: Obtain a free or paid API key from https://www.virustotal.co
 
 Add your VirusTotal API key and Groq API keys to the .env file in the following format:
 
-'''bash
-GQ_API_KEY="your_groqai_api_key"
-VT_API_KEY="your_virustotal_api_key"
-'''
+
+GQ_API_KEY="your_groqai_api_key
+
+VT_API_KEY="your_virustotal_api_key
+
 
 Installation Instructions
 Clone or Download the Repository: Place ZabiApp.py, ZabimaruMain.py, and Zabimaru.ps1 in the same directory.

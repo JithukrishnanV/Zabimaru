@@ -23,7 +23,7 @@ VT_API_KEY="your_virustotal_api_key
 
 
 Installation Instructions
-Clone or Download the Repository: Place ZabiApp.py, ZabimaruMain.py, and Zabimaru.ps1 in the same directory.
+Clone or Download the Repository: Place ZabiCOde.py, ZabimaruMain.py, and Zabimaru.ps1 and dependencies in the same directory.
 
 Create a Virtual Environment (Optional but recommended):
 

@@ -10,6 +10,7 @@
 It has a boatload of features, see [FEATURES.md](FEATURES.md)
 
 
+
 ## Requirements
 * Python 3.x
 Libraries:
@@ -71,5 +72,7 @@ python ZabimaruMain.py
 ## Disclaimer
 
 Zabimaru is intended for educational and research purposes only. Ensure you use it in a controlled, isolated environment and comply with relevant laws and regulations when handling malware.
+
+Click here too see results [results.md](results.md)
 
 ![PDF UI](https://github.com/jithukv143/j/blob/master/result.png)

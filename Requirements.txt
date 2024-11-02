@@ -1,0 +1,6 @@
+customtkinter
+Pillow
+tkinter  # Note: This is built-in with Python; no installation needed.
+reportlab
+groq
+python-dotenv

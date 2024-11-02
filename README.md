@@ -44,7 +44,7 @@ VT_API_KEY="your_virustotal_api_key"
 ### 4. Run ZabiMain.py
 
 ```bash
-.\ZabiMain.py
+.\ZabimaruMain.py
 ```
 
 
@@ -65,7 +65,7 @@ VT_API_KEY="your_virustotal_api_key"
 Run the tool with:
 
 ```bash
-python ZabiApp.py
+python ZabimaruMain.py
 ```
 
 ## Disclaimer

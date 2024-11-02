@@ -34,7 +34,7 @@ Zabimaru generates PDF reports summarizing the analysis, which is useful for doc
 #### 5. User Interface and Usability
 The user-friendly CustomTkinter UI ensures that even users with limited technical expertise can operate the tool efficiently.
 
- ![Startup Scan](https://github.com/jithukv143/j/blob/master/start.png)
+ ![Startup Scan](https://github.com/jithukv143/j/blob/master/Start.png)
 
 
 Zabimaru combines the power of startup scanning, hashing, VirusTotal checks, AI analysis, and comprehensive reporting to provide an effective solution for identifying malware persistence. Its robust features make it an essential tool for cybersecurity professionals focusing on malware analysis and threat assessment.

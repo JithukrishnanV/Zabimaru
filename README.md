@@ -41,10 +41,10 @@ GQ_API_KEY="your_groq_api_key"
 VT_API_KEY="your_virustotal_api_key"
 
 ```
-### 4. Run ZabiApp.py
+### 4. Run ZabiMain.py
 
 ```bash
-.\ZabiApp.py
+.\ZabiMain.py
 ```
 
 

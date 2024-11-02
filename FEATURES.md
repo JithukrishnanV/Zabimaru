@@ -15,7 +15,7 @@ Zabimaru scans for applications configured to run at startup, allowing users to 
       check=True
   )
   ```
- ![Startup Scan](https://github.com/jithukv143/j/blob/master/Startup%20Scan.png)
+ ![Startup Scan](https://github.com/jithukv143/j/blob/master/Startup_Scan.png)
 
 ### 2. Hash Calculation
 The tool computes the hash of each identified startup application for further verification.

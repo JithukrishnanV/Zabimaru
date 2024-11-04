@@ -10,7 +10,7 @@
 It has a boatload of features, see [FEATURES.md](FEATURES.md)
 
 
-
+![Preview](https://github.com/JithukrishnanV/j/blob/master/Zabimaru.gif)
 ## Requirements
 * Python 3.x
 Libraries:
@@ -75,4 +75,6 @@ Zabimaru is intended for educational and research purposes only. Ensure you use 
 
 Click here to see more info [results.md](results.md)
 
-![PDF UI](https://github.com/jithukv143/j/blob/master/result.png)
+[![PDF UI](https://github.com/jithukv143/j/blob/master/result.png)](https://github.com/JithukrishnanV/j/blob/master/Zabimaru.gif)
+
+

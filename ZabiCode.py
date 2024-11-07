@@ -6,7 +6,7 @@ from reportlab.pdfgen import canvas
 import sys
 import os
 import tempfile
-from dotenv import load_dotenv
+from tkinter import messagebox
 
 
 
@@ -16,16 +16,13 @@ else:  # If running as a script
     base_path = os.path.abspath(".")
 
 
-load_dotenv('key.env')
-
-#Groq API key here
-groq_api_key = os.getenv("GQ_API_KEY")
-
-#VirusTotal API key here
-VT_API_KEY = os.getenv("VT_API_KEY")
-
+groq_api_key="key"
 
 client = Groq(api_key=groq_api_key)
+
+# Set your VirusTotal API key here
+VT_API_KEY = 'key'
+
 
 
 def get_virus_details(hash_value):
@@ -124,6 +121,10 @@ def get_AI_result(details):
 
 
 def main():
+    if groq_api_key == "key" or VT_API_KEY=="key":
+        print("Set API keys at start of the program")
+        messagebox.showinfo("API key error", "Set API keys at start of the program")
+        return 1
     # Set the path to the PowerShell script
     ps1_script_path = os.path.join(base_path, 'Zabimaru.ps1').replace("\\", "/")
     

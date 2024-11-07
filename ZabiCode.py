@@ -146,7 +146,7 @@ def main():
 
         # Manual test  
         new_hashes_list.append('d14b48bae7484afe7942b7f21830a9561e8c49cb4cf4fa9ebbc1dc5b4573a375')
-        new_hashes_list.append('01ec7b1066df7c55e262dc375bff5fd13a1fc9706c3db4b3522ac8b9d2453b52')
+        
         
 
        # print("Received hashes from PowerShell:", new_hashes_list)  # For debugging

@@ -62,6 +62,8 @@ def scan():
     scan_text.set("SCANNING...")
     win.update_idletasks() 
     data = main() 
+    if data == 1:
+        return
     print(data)
     if not isinstance(data, dict) or not data:
         formatted_data = "No malicious hashes detected."
@@ -93,6 +95,8 @@ def scan():
                 result_text.insert("end", f"{details['malware_info']}\n\n")
             
             result_text.insert("end", "-" * 50 + "\n\n")
+            if hash_value =='d14b48bae7484afe7942b7f21830a9561e8c49cb4cf4fa9ebbc1dc5b4573a375':
+                messagebox.showinfo("Dummy result", "This result is based on the virus hash in the code. check line 148 Zabicode.py")
 
         result_text.config(state="disabled")
 

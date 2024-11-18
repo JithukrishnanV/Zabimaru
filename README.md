@@ -35,7 +35,7 @@ pip install -r requirements.txt
 
 ```
 
-### 3. Create a key.env file and provide your API keys:
+### 3. Update API keys in ZabiCode.py file:
 
 ```bash
 GQ_API_KEY="your_groq_api_key"

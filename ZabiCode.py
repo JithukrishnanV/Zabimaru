@@ -15,13 +15,15 @@ if getattr(sys, 'frozen', False):  # If running as an executable
 else:  # If running as a script
     base_path = os.path.abspath(".")
 
-
+# Set your groq API key here
 groq_api_key="key"
-
-client = Groq(api_key=groq_api_key)
 
 # Set your VirusTotal API key here
 VT_API_KEY = 'key'
+
+client = Groq(api_key=groq_api_key)
+
+
 
 
 
